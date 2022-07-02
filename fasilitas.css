@@ -21,7 +21,7 @@
     text-align: center;
 }
 .description h1 {
-    color: red;
+    color: white;
     font-weight: bold;
 }
 .description p {
@@ -35,7 +35,7 @@
     position: relative;
 }
 .feature-title {
-    color: red;
+    color: white;
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 20px;
