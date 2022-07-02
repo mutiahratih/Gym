@@ -1,0 +1,112 @@
+.register{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url(./images/register.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.register h1{
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    display: inline-block;
+    color: red;
+    border-bottom: .3rem solid red;
+    margin-bottom: 0.5rem;
+}
+.register form{
+    padding: 2% 6%;
+    margin: 0 auto;
+}
+.register form .input_box{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.register form .input_box input {
+    height: 3rem;
+    width: 49%;
+    background-color: transparent;
+    color: white;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    border: 2px solid white;
+}
+#bottom {
+    color: #bdc3c7;
+    background-color: rgb(56, 56, 56);
+    padding: 3rem;
+}
+
+#bottom h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#bottom .media-heading {
+    display: block;
+    font-weight: 400;
+}
+
+.row > div {
+    margin-bottom: 10px;
+}
+
+ul.unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer {
+    background-color: #101010;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #eee;
+    border-top: 1px solid #333;
+}
+
+#footer a,
+#footer-wrapper a {
+    color: #bdc3c7;
+}
+
+#footer a:hover,
+#footer-wrapper a:hover {
+    color: #00b29e;
+}
+
+#footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer ul > li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+ul.social {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+    display: inline-block;
+}
+
+ul.social > li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+ul.social > li > a {
+    font-size: 24px;
+    color: #666;
+}
+
+ul.social > li > a:hover {
+    color: #999;
+}

@@ -1,4 +1,4 @@
-.header {
+.header1 {
     background-image: url('images/header1.jpg');
     background-size: cover;
     background-position: center;
@@ -22,10 +22,11 @@
 }
 .description h1 {
     color: red;
+    font-weight: bold;
 }
 .description p {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.5;
 }
 .features {
@@ -48,6 +49,82 @@
     box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
     margin-bottom: 16px;
 }
+#bottom {
+    color: #bdc3c7;
+    background-color: rgb(56, 56, 56);
+    padding: 3rem;
+}
+
+#bottom h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#bottom .media-heading {
+    display: block;
+    font-weight: 400;
+}
+
+.row > div {
+    margin-bottom: 10px;
+}
+
+ul.unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer {
+    background-color: #101010;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #eee;
+    border-top: 1px solid #333;
+}
+
+#footer a,
+#footer-wrapper a {
+    color: #bdc3c7;
+}
+
+#footer a:hover,
+#footer-wrapper a:hover {
+    color: #00b29e;
+}
+
+#footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer ul > li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+ul.social {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+    display: inline-block;
+}
+
+ul.social > li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+ul.social > li > a {
+    font-size: 24px;
+    color: #666;
+}
+
+ul.social > li > a:hover {
+    color: #999;
+}
+
 @media (max-width: 575.98px) {
     .description {
         left: 0;
