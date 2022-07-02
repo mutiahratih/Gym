@@ -220,25 +220,23 @@
                                 <span class="icon icon-twitter"></span> <a href="#">@fitnessidolteam.com</a> <br/>
                                 <span class="icon icon-facebook"></span> <a href="#">fitness idol</a> <br/>
                             </p>
-                        </div>
+                        </div><!-- col -->
+
                         <div class="col-md-8 fade-up">
-                        	<section class="register">
-	        					<h1>register</h1>
-	       	 					<form>
-		            				<div class="input_box">
-		                				<input type="text" placeholder="First Name">
-		                				<input type="text" placeholder="last Name">
-		            				</div>
-		            				<div class="input_box">
-		                				<input type="email" placeholder="your email">
-		                				<input type="number" placeholder="your number">
-		            				</div>
-		            				<textarea cols="30" rows="10" placeholder="Message ..."></textarea>
-		            				<input type="submit" value="connect us" class="btn">
-	        					</form>
-    						</section>
-                        </div>
-                        	<!-- col -->
+                            <h3>Drop Us A Message</h3>
+                            <br>
+                            <br>
+                            <div id="message"></div>
+                            <form method="post" action="sendemail.php" id="contactform">
+                                <input type="text" name="name" id="name" placeholder="Name" />
+                                <input type="text" name="email" id="email" placeholder="Email" />
+                                <input type="text" name="website" id="website" placeholder="Website" />
+                                <textarea name="comments" id="comments" placeholder="Comments"></textarea>
+                                <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Submit" />
+                            </form>
+                        </div><!-- col -->
+                    </div><!-- row -->
+                    <div class="gap"></div>
                     </div><!-- row -->
                     <div class="gap"></div>
                 </div>
